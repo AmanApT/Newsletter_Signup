@@ -1,0 +1,36 @@
+
+
+
+
+body{
+  background-color: #FFF6BF;
+  text-align: center;
+}
+.heading{
+  font-size: 80px;
+}
+.error{
+  padding: 40px;
+
+}
+button{
+  background-color: #3C4048;
+  border-style:dashed;
+  padding: 20px;
+  border-radius: 10%;
+  color:white;
+
+}
+button:hover{
+  background-color: white;
+  color: green;
+}
+@media only screen and (min-width:1000px) {
+
+  button{
+    width: 200px;
+  }
+  .heading{
+    font-size: 50px;
+  }
+}
